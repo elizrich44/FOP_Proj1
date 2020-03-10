@@ -1,0 +1,96 @@
+.scrolling-wrapper {
+	position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+}
+
+.card {
+	z-index: -2;
+	display: inline-block;
+	margin: 0px 40px;
+
+}
+
+.card img{
+	max-width: 440px;
+	max-height: 440px;
+	object-fit: cover;
+}
+
+
+
+.cardHover img{
+	max-width: 540px;
+	max-height: 540px;
+	object-fit: cover;
+	position: fixed;
+	
+}
+
+
+#landingPage {
+	background: black;
+}
+
+#secondPage {
+	background: white;
+}
+
+h1 {
+	text-align: center;
+
+}
+.title {
+	width: 160px;
+	height: 160px;
+}
+
+
+h2 {
+
+font-size: 15pt;
+	text-align: center;
+	color: yellow;
+	opacity: 20px;
+	font-family: sans-serif;
+	font-family: verdana;
+	font-style: oblique;
+	font-weight: lighter;
+	opacity: .4;
+}
+
+p{
+	font-size: 15pt;
+	text-align: center;
+	color: white;
+	opacity: 20px;
+	font-family: sans-serif;
+	font-family: verdana;
+	font-style: oblique;
+	font-weight: lighter;
+	opacity: .7;
+	animation: blinker 3.5s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+a:visited {
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
