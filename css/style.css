@@ -61,7 +61,7 @@ font-size: 15pt;
 	opacity: .4;
 }
 
-p{
+#firstpage{
 	font-size: 15pt;
 	text-align: center;
 	color: white;
@@ -87,9 +87,23 @@ a:visited {
 
 
 
+#page3 {
+	background: black;
 
+}
 
+p {
+	font-size: 15pt;
+	text-align: center;
+	color: white;
+	opacity: 20px;
+	font-family: sans-serif;
+	font-family: verdana;
+	font-style: oblique;
+	font-weight: lighter;
+	opacity: .7;
 
+}
 
 
 
